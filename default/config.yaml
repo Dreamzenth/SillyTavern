@@ -57,7 +57,7 @@ ssl:
   keyPassphrase: ""
 # -- SECURITY CONFIGURATION --
 # Toggle whitelist mode
-whitelistMode: true
+whitelistMode: false
 # When enabled, whitelist will also verify IP in headers enabled in `forwardedHeaders` section.
 enableForwardedWhitelist: true
 # Whitelist of allowed IP addresses
@@ -70,8 +70,8 @@ whitelistDockerHosts: true
 basicAuthMode: true
 # Basic authentication credentials
 basicAuthUser:
-  username: "user"
-  password: "password"
+  username: "dream"
+  password: "123456"
 # Enables CORS proxy middleware
 enableCorsProxy: false
 # CORS settings (applied to all routes)
